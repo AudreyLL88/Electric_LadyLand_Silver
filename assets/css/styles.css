@@ -5,7 +5,21 @@ body {
 
 
 /* -- Navigation Bar --*/
+.navbar-brand {
+  padding: 10px 0 10px 25px;
+}
 
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  background-color: #140d07;
+}
+
+nav .navbar-nav li a {
+  color: #f5f8e4 !important;
+}
 /* -- About --*/
 
 /* -- Pricing cards--*/
