@@ -104,6 +104,15 @@ div .subtext-hero {
   margin: 0;
 }
 
+.instructor-img,
+.ethic-img {
+  box-shadow: -5px 5px #719f9f;
+  -moz-box-shadow: -5px 5px #719f9f;
+  -webkit-box-shadow: -5px 5px #719f9f;
+  -o-box-shadow: -5px 5px #719f9f;
+  border-radius: 100px;
+}
+
 /* -- Pricing cards--*/
 
 .card-text {
@@ -123,6 +132,10 @@ div .subtext-hero {
   width: 10%;
   border-radius: 100%;
   margin: 15px;
+  box-shadow: -3px 3px #719f9f;
+  -moz-box-shadow: -3px 3px #719f9f;
+  -webkit-box-shadow: -3px 3px #719f9f;
+  -o-box-shadow: -3px 3px #719f9f;
 }
 
 /* -- Call to Action--*/
