@@ -1,7 +1,25 @@
 /* -- Elements --*/
 body {
   background-color: #140d07;
+  color:  #f5f8e4;
 }
+
+/* Sections and containers */
+
+.colored-section {
+  background-color: #140d07;
+  color: #f5f8e4;
+}
+
+.light-section {
+  background-color: #f5f8e4;
+  color: #140d07;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
 
 
 /* -- Navigation Bar --*/
