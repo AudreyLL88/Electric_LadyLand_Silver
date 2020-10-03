@@ -121,6 +121,12 @@ div .subtext-hero {
   line-height: 1.5;
 }
 
+#pricing .card {
+  -webkit-box-shadow: 6px 6px 0px -1px #719f9f;
+  -moz-box-shadow: 6px 6px 0px -1px #719f9f;
+  box-shadow: 6px 6px 0px -1px #719f9f;
+}
+
 
 /* -- Reviews--*/
 
