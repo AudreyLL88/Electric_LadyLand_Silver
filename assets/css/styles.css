@@ -4,7 +4,7 @@ body {
   color:  #f5f8e4;
 }
 
-/* Sections and containers */
+/* Sections and containers */ 
 
 .colored-section {
   background-color: #140d07;
@@ -20,7 +20,7 @@ body {
   padding: 5% 15%;
 }
 
-/* -- Special text classes --*/
+/* -- Special text classes --*/ 
 
 .uppercase {
     text-transform: uppercase;
