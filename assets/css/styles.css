@@ -40,6 +40,16 @@ nav .navbar-nav li a {
 }
 /* -- About --*/
 
+.ethic-container {
+  padding: 10px 0px 20px 0px;
+  margin: 0;
+}
+
+.instructor-container {
+  padding: 20px 0 10px 0px;
+  margin: 0;
+}
+
 /* -- Pricing cards--*/
 
 /* -- Reviews--*/
