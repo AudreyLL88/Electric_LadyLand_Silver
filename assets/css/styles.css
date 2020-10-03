@@ -33,6 +33,14 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+/* -- Buttons --*/ 
+
+.btn {
+  background-color: #719f9f;
+  color: #f5f8e4;
+}
+
+
 
 /* -- Navigation Bar --*/
 .navbar-brand {
