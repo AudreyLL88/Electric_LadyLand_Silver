@@ -29,3 +29,21 @@ nav .navbar-nav li a {
 /* -- Call to Action--*/
 
 /* -- Footer--*/
+footer {
+  min-height: 120px;
+  margin: 0;
+  padding: 45px 25px 45px 25px;
+}
+
+.footer-social li a i {
+  width: 35px;
+  height: 35px;
+  padding: 15px 0;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #f5f8e4;
+  background: #719f9f;
+}
