@@ -20,7 +20,11 @@ body {
   padding: 5% 15%;
 }
 
+/* -- Special classes --*/
 
+.uppercase {
+    text-transform: uppercase;
+}
 
 /* -- Navigation Bar --*/
 .navbar-brand {
