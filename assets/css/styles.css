@@ -166,6 +166,31 @@ footer {
   background: #719f9f;
 }
 
+/* -- Media queries --*/
+
+@media (max-width: 641px) {
+  .instructor-img,
+  .ethic-img {
+    display: none;
+  }
+  .media-body {
+    text-align: center;
+  }
+  #footer {
+    text-align: center;
+  }
+  #footer .footer-heading {
+    padding-top: 30px;
+  }
+
+}
+
+@media (min-width: 961px) {
+  .footer-details {
+    padding-left: 30px;
+  }
+}
+
 /* -- Hover on buttons--*/
 
 .hvr-sweep-to-top {
