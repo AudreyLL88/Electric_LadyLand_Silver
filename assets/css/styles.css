@@ -20,10 +20,18 @@ body {
   padding: 5% 15%;
 }
 
-/* -- Special classes --*/
+/* -- Special text classes --*/
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.section-heading {
+  font-weight: bolder;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* -- Navigation Bar --*/
