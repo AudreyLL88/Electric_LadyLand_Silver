@@ -42,6 +42,40 @@ body {
 nav .navbar-nav li a {
   color: #f5f8e4 !important;
 }
+
+/* -- Header --*/
+
+.hero-container {
+  height: 80vh;
+
+  background: url("../images/Hero-image.jpeg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-hero {
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffff;
+  text-shadow: 3px 3px #140d07;
+}
+
+div .subtext-hero {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffff !important;
+  text-shadow: 3px 3px #140d07;
+}
+
 /* -- About --*/
 
 .ethic-container {
