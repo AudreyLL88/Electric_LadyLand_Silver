@@ -189,6 +189,12 @@ footer {
     text-align: center;
   }
   #footer .footer-heading {
+    padding-top: 20px;
+  }
+  #calendar iframe {
+    height: 60vh;
+  }
+  .registration-form {
     padding-top: 30px;
   }
 
@@ -196,7 +202,7 @@ footer {
 
 @media (min-width: 961px) {
   .footer-details {
-    padding-left: 20px;
+    padding-left: 30px;
   }
 }
 
