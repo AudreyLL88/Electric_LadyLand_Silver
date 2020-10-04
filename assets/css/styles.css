@@ -4,6 +4,7 @@ body {
   color:  #f5f8e4;
   font-family: "Cabin", Sans-Serif;
   font-size: 1.1em;
+  font-weight:400;
 }
 
 h1,
@@ -49,6 +50,7 @@ h6 {
 .btn {
   background-color: #719f9f;
   color: #f5f8e4;
+  font-weight:700;
 }
 
 /* -- Navigation Bar --*/
@@ -58,6 +60,8 @@ h6 {
 
 .nav-item {
   padding: 0 18px;
+  text-transform: uppercase;
+  letter-spacing:2px;
 }
 
 .navbar {
