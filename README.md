@@ -122,8 +122,15 @@ For **wireframing** I used [**JustInMind**](https://www.justinmind.com/) rather 
 It also allowed **my mentor** to point out a few **UX mistakes** that I changed after my meeting with him.
 
 View my wireframes [here](assets/wireframe/ElectricLadyLand-wireframe.pdf).
-What didn't make the cut and why:
-Screens
+
+You'll notice that my wireframe is different than the website. After my preliminary meeting with my mentor, I decided under his supervision to let go of the following things for a better UX:
+* The **Header title** became white with a lighter shadow under rather than a semi-transparent jumbotron.
+* The **Book a class button** on the Hero image went down to the **"Gallery"** button in the **About Section**.
+* The **navigation bar** changes depending on which pagethe user is on.
+* The **about** section link in the **navigation bar** was **removed**.
+* The **review section** is now placed **after** the **pricing card section**.
+* The **Any Question** section became a **Call to Action** section with a **contact button** leading to a **contact page with a form**.
+* The **contact details** are moved in the **footer**.
 
 ## Features ## 
 ---
@@ -201,6 +208,8 @@ Embedding a **Google Calendar** is pretty straightforward and customable within 
 
 **Bootstrap** has extensive **documentation** about forms so I extracted the code from **the Bootstrap documentation** and build my own **fitting input areas** and **modal buttons**. I fitted the form on **lg and md screen next to the calendar** and **for sm screens I fitted it under the calendar** and added some **padding** between the sections in a **corresponding media query**.
 
+**Image Gallery**
+
 * **Implementation**
 
 **My mentor** suggested after seeing my **wireframe** during our preliminary meeting that I should use the **Fancybox library**. After researching it, I **resized my images with Gimp** to create the thumbnails and used this[**Bootstrap gallery template**](https://startbootstrap.com/snippets/thumbnail-gallery/)for the **responsivness** and added the **Fancybox "data-fancybox"** and **alt text**.**
@@ -211,7 +220,6 @@ Embedding a **Google Calendar** is pretty straightforward and customable within 
 I used the **Bootstrap documentation** to implement a **modal on button click** in the **contact form** and the **registration form** and **customized it** with according text and button styling.
 
 ## Bugs ##
-
 ---
 
 I still have **nightmares** about **bootstrap cards**. **The horror, oh the horror**. It doesn't show on my commits because I wanted to commit only when I was satisfied with it.
@@ -239,8 +247,6 @@ But that's not all, so here we go:
 **Google Fonts syntax link**
 * I had taken my fonts as a family pair and HTML validator didn't like that at all.
 * I went on google fonts and selected the fonts and their weight manually then added that link and it worked.
-
-
 
 ## Deployment ##
 ---
