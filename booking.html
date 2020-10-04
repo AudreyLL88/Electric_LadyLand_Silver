@@ -146,29 +146,62 @@
 										<label for="request">Any requests?</label>
 										<textarea class="form-control" id="request" rows="3"></textarea>
 									</div>
-									<a href="#" class="btn"><i class="far fa-paper-plane"></i> Reserve!</a>
+									<a href="#" class="btn" data-toggle="modal"
+										data-target="#bookingModal"><i class="far fa-paper-plane"></i> Reserve!</a>
+									<div class="modal fade" id="bookingModal" tabindex="-1" role="dialog"
+										aria-labelledby="bookingModalLabel" aria-hidden="true">
+										<div class="modal-dialog" role="document">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="bookingModalLabel">
+														Thank You!
+													</h5>
+													<button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+												</div>
+												<div class="modal-body">
+													Your booking request was successfully sent! We will answer
+													shortly.
+												</div>
+												<div class="modal-footer">
+													<button
+                        type="button"
+                        class="btn btn-contact"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+												</div>
+											</div>
+										</div>
+									</div>
 									<form>
 								</div>
 							</div>
 	</section>
 
-    <!-- Sub-text -->
+	<!-- Sub-text -->
 
-    <div id="subtext" class="light-section">
-      <div class="container-subtext">
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <p>
-              <em>
+	<div id="subtext" class="light-section">
+		<div class="container-subtext">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<p>
+						<em>
                 A confirmation email will be sent at your email address within
                 the next 48 hours. Payment is required via Swish or credit card
-                at the end of the class.</em
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+                at the end of the class.</em>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Footer -->
 
