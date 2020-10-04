@@ -225,7 +225,10 @@ footer p {
     padding-top: 30px;
   }
   .btn-navbarcontact {
-      padding-bottom: 6px;
+      margin-bottom: 6px;
+  }
+  .navbar-brand {
+      padding: 5px 0 5px 5px;
   }
 
 }
