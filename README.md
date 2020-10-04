@@ -161,9 +161,11 @@ Screens
 ---
 
 * I tested the responsiveness of the website by using the [**Google Chrome DeveloperTool**](https://developers.google.com/web/tools/chrome-devtools) and the website [**Am I Responsive**](http://ami.responsivedesign.is/).
-* I tested my CSS file and my HTML files using [**CSS Validator**](https://jigsaw.w3.org/css-validator/) and [**HTML Validator**](https://validator.w3.org/).
-* My CSS file displayed no error but I had to fix a few problems concerning **the google font syntax**, **the id of my navigation bar**, **the modal button syntax** as well as t**he call to action buttons syntax**. More about the process below.
+* I used [**CodePen**](https://www.codeply.com/) to pre-test parts of my HTML and CSS code before adding it to my workspace which was great but sometimes resulted in forgetting to copy/paste some css or classes.
+* I tested my CSS file and my HTML files using [**CSS Validator**](https://jigsaw.w3.org/css-validator/) and [**HTML Validator**](https://validator.w3.org/), which highlighted my mistakes in copy/pasting from CodePly.
+* My CSS file displayed no error but I had to fix a few problems concerning **the google font syntax**, **the id of my navigation bar**, as well as **the call to action buttons syntax**. More about the process below.
 
+All pages passed the HTML and CSS validator final test.
 
 **Responsiveness**
 
@@ -181,7 +183,7 @@ The design of the site was inspired by **South western culture** but kept **mini
 
 * **Implementation** 
 
-I used the **contact form** that was introduced to us during [**the mini project challenge**](https://github.com/AudreyLL88/mini-project-cv) because I liked how it sit **in the middle of the page and is very straightforward**. I wanted to add **an "add images" button** but realized that **I needed to know some JS**. I customized it a bit by **adding margins and a modal button**. As of now, the contact form button **doesn't work (lack of PHP)** but it will be **implemented in the future**. 
+I used the **contact form** that was introduced to us during [**the mini project challenge**](https://github.com/AudreyLL88/mini-project-cv) because I liked how it sit **in the middle of the page and is very straightforward**. I wanted to add **an "add images" button** but realized that **I needed to know some JS**. I customized it a bit by **adding margins, a checkbox and a modal button**. As of now, the contact form button **doesn't work (lack of PHP)** but it will be **implemented in the future**. 
 All input elements work and **are responsive**.
 
 **Google Calendar**
@@ -196,17 +198,20 @@ Embedding a **Google Calendar** is pretty straightforward and customable within 
 
 **Bootstrap** has extensive **documentation** about forms so I extracted the code from **the Bootstrap documentation** and build my own **fitting input areas** and **modal buttons**. I fitted the form on **lg and md screen next to the calendar** and **for sm screens I fitted it under the calendar** and added some **padding** between the sections in a **corresponding media query**.
 
-**Image Gallery**
-
 * **Implementation**
 
 **My mentor** suggested after seeing my **wireframe** duriing our preliminary meeting that I should use the **Fancybox library**. After researching it, I **resized my images with Gimp** to create the thumbnails and used this[**Bootstrap gallery template**](https://startbootstrap.com/snippets/thumbnail-gallery/)for the **responsivness** and added the **Fancybox "data-fancybox"** and **alt text**.**
+
+**Modal buttons**
+
+* **Implementation**
+I used the **Bootstrap documentation** to implement a **modal on button click** in the **contact form** and the **registration form** and **customized it** with according text and button styling.
 
 ## Bugs ##
 
 ---
 
-I still have **nightmares** about **bootstrap cards**. **The horror, oh the horror**.
+I still have **nightmares** about **bootstrap cards**. **The horror, oh the horror**. It doesn't show on my commits because I wanted to commit only when I was satisfied with it.
 
 But that's not all, so here we go:
 
@@ -227,6 +232,12 @@ But that's not all, so here we go:
 **Call to action buttons**
 * Originally started with a "button" then realized that i needed a "a" instead but left the type="submit" in it.
 * HTML validator strongly disagreed so I removed it.
+
+**Google Fonts syntax link**
+* I had taken my fonts as a family pair and HTML validator didn't like that at all.
+* I went on google fonts and selected the fonts and their weight manually then added that link and it worked.
+
+
 
 ## Deployment ##
 ---
@@ -251,6 +262,7 @@ But that's not all, so here we go:
 * **Byllsa** for her very inspiring ReadME
 * **Matildha Cedborger** for her passion, her ideas and her talent
 * **Code Institute Slack community** for the technical and emotional support
-* **Ivar Dahlberg**, technical artist at Embark but also my poor husband who heard me vent about bootstrap cards for a week.
+* **Ivar Dahlberg**, technical artist at Embark but also my poor husband who heard me vent and cooked me food while I was staring at my screen.
+* **Mesaicos Stockholm LandHockey team** for cutting me some slack for not being very alert (and I am the goalkeeper...)
 
-**Site for educational purposes only!**
+**Site for educational purposes only!** (for now)
