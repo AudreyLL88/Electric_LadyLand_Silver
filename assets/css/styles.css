@@ -144,7 +144,6 @@ div .subtext-hero {
   -o-box-shadow: -3px 3px #719f9f;
 }
 
-/* -- Call to Action--*/
 
 /* -- Footer--*/
 footer {
@@ -164,6 +163,12 @@ footer {
   text-decoration: none;
   color: #f5f8e4;
   background: #719f9f;
+}
+
+/* -- Bookings --*/
+
+.form-container {
+  padding: 0px 30px 30px 30px;
 }
 
 /* -- Media queries --*/
