@@ -40,8 +40,6 @@ body {
   color: #f5f8e4;
 }
 
-
-
 /* -- Navigation Bar --*/
 .navbar-brand {
   padding: 10px 0 10px 25px;
@@ -201,6 +199,9 @@ footer {
   }
   .registration-form {
     padding-top: 30px;
+  }
+  .btn-navbarcontact {
+      padding-bottom: 6px;
   }
 
 }
