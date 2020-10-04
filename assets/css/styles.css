@@ -53,6 +53,11 @@ h6 {
   font-weight:700;
 }
 
+.btn-about {
+  margin: 10px;
+}
+
+
 /* -- Navigation Bar --*/
 .navbar-brand {
   padding: 10px 0 10px 25px;
