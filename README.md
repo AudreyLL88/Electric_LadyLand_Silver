@@ -38,7 +38,9 @@ The **goal** for this project is to learn about the **services** offered by **El
 * **Contact via email** to the **site owner**.
 * Why smithery is a creative activity that anyone should do.
 
-### User Stories ###
+### User Stories ### 
+
+All **user** stories have to be read aloud as a **Baseline Test** from **Blade Runner**
 
 * The **user** wants a **visually pleasing** and **informative** website to be informed and **tempted by the activity** offered.
 * The **user** wants to know about **the company and their ethics**.
@@ -52,6 +54,8 @@ The **goal** for this project is to learn about the **services** offered by **El
 * The **user** wants to be able to **consult the website from all his/her/their devices**.
 
 ### Site Owner Goals ###
+
+All **site owner** goals have to be read aloud as a **Baseline Test** from **Blade Runner**
 
 * The **site owner** wants to **present his company and ethics** in an **honest and professional** way.
 * The **site owner** wants to present the **options offered in a clear and understandable way** for the customer.
@@ -126,17 +130,16 @@ Screens
 **Implemented Features**:
 
 * **Responsiveness** on all screen sizes.
-* **Contact form** with modal button.
+* **Contact form** with modal button in contact page.
 * Embedded **Google Calendar** and **registration form with modal button**.
-* **Social media links** in footer.
+* **Registration form** in booking page.
 * **Pricing cards** with picture.
-* **Images Gallery** with thumbnails and **pop-up pictures**.
+* **Images Gallery** with thumbnails and **zoom-in pictures**.
 
 **Future implemented features**:
 
 * Online Shop.
 * Google reviews.
-* Google maps.
 * More (and better?) pricing cards.
 
 **Technologies used**
@@ -200,7 +203,7 @@ Embedding a **Google Calendar** is pretty straightforward and customable within 
 
 * **Implementation**
 
-**My mentor** suggested after seeing my **wireframe** duriing our preliminary meeting that I should use the **Fancybox library**. After researching it, I **resized my images with Gimp** to create the thumbnails and used this[**Bootstrap gallery template**](https://startbootstrap.com/snippets/thumbnail-gallery/)for the **responsivness** and added the **Fancybox "data-fancybox"** and **alt text**.**
+**My mentor** suggested after seeing my **wireframe** during our preliminary meeting that I should use the **Fancybox library**. After researching it, I **resized my images with Gimp** to create the thumbnails and used this[**Bootstrap gallery template**](https://startbootstrap.com/snippets/thumbnail-gallery/)for the **responsivness** and added the **Fancybox "data-fancybox"** and **alt text**.**
 
 **Modal buttons**
 
@@ -241,6 +244,21 @@ But that's not all, so here we go:
 
 ## Deployment ##
 ---
+Electric LadyLand Silver was developed on **GitPod**, using **GitHub** to host the repository.
+**GitHub** made the deployment extremely painless:
+
+* Connected to Github
+* Selected the repository **AudreyLL88/MS1**
+* Clicked on **"settings"** in the navigation bar
+* In the **GitHub Pages** I selected **Master Branch** and **/root** in the dropdown menu and clicked **Save**
+* I waited 2 minutes.
+* And voila! **The website is now live on https://audreyll88.github.io/MS1/**
+
+**Cloning ?** No problem:
+
+* In my repository **AudreyLL88/MS1**, click on the **"Code"** green button, **copy in clipboard the HTTPS link**, open your **browser** and look through my files.
+* The link : **https://github.com/AudreyLL88/MS1.git**
+
 
 ## Credits ##
 ---
@@ -249,7 +267,7 @@ But that's not all, so here we go:
 * Reviews by **Mimmi** (last name unknown) and **Jacqueline Burdett**
 * Text content by **myself** and the sweet and exceptional **Matildha Cedborger**
 
-**Images used**
+**Images Credits**
 
 * Hero image, gallery images and about section: **Matildha Cedborger**
 * Pricing card image top: **Levon Burdett**
