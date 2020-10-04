@@ -2,6 +2,17 @@
 body {
   background-color: #140d07;
   color:  #f5f8e4;
+  font-family: "Cabin", Sans-Serif;
+  font-size: 1.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arvo", Serif;
 }
 
 /* Sections and containers */ 
