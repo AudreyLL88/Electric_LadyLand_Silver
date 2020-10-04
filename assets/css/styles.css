@@ -175,6 +175,11 @@ footer {
   padding-left: 30px;
 }
 
+.form-container iframe {
+  width: 100%;
+  height: 100%;
+}
+
 /* -- Media queries --*/
 
 @media (max-width: 641px) {
