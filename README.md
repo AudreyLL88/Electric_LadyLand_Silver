@@ -255,16 +255,16 @@ Electric LadyLand Silver was developed on **GitPod**, using **GitHub** to host t
 **GitHub** made the deployment extremely painless:
 
 * Connected to Github
-* Selected the repository **AudreyLL88/MS1**
+* Selected the repository **AudreyLL88/Electric_LadyLand_Silver**
 * Clicked on **"settings"** in the navigation bar
 * In the **GitHub Pages** I selected **Master Branch** and **/root** in the dropdown menu and clicked **Save**
 * I waited 2 minutes.
-* And voila! **The website is now live on https://audreyll88.github.io/MS1/**
+* And voila! **The website is now live on  https://audreyll88.github.io/Electric_LadyLand_Silver/**
 
 **Cloning ?** No problem:
 
 * In my repository **AudreyLL88/MS1**, click on the **"Code"** green button, **copy in clipboard the HTTPS link**, open your **browser** and look through my files.
-* The link : **https://github.com/AudreyLL88/MS1.git**
+* The link : **https://github.com/AudreyLL88/Electric_LadyLand_Silver.git**
 
 
 ## Credits ##
