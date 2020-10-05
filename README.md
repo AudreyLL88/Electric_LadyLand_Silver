@@ -1,6 +1,6 @@
 # Electric LadyLand Silver #
 ---
-![Hero Screenshot](assets/images/screenshot-hero.png)
+![Hero Screenshot](assets/images/screenshot.png)
 
 ## Contents ##
 ---
@@ -193,7 +193,7 @@ The design of the site was inspired by **South western culture** but kept **mini
 
 * **Implementation** 
 
-I used the **contact form** that was introduced to us during [**the mini project challenge**](https://github.com/AudreyLL88/mini-project-cv) because I liked how it sit **in the middle of the page and is very straightforward**. I wanted to add **an "add images" button** but realized that **I needed to know some JS**. I customized it a bit by **adding margins, a checkbox and a modal button**. As of now, the contact form button **doesn't work (lack of PHP)** but it will be **implemented in the future**. 
+I used the **contact form** that was introduced to us during [**the mini project challenge**](https://github.com/AudreyLL88/mini-project-cv) because I liked how it sit **in the middle of the page and is very straightforward**. I wanted to add **an "add images" button** but realized that **I needed to know some JS**. I customized it a bit by **adding margins, a checkbox and a modal button**. As skills grows, **JavaScript** will be introduced to **ensure** that the form must be **validated before modal appears**. For now the **contact form** doesn't work as it is not using a **PHP**. 
 All input elements work and **are responsive**.
 
 **Google Calendar**
@@ -202,11 +202,11 @@ All input elements work and **are responsive**.
 
 Embedding a **Google Calendar** is pretty straightforward and customable within the Google site and I initially did some **inline styling in the iframe** so the calendar would take **100% width/height of the column on all device**... and **HTML Validator didn't like that** so I moved it to **CSS**, which all validators liked. Good Job me.
 
-**Registration Form**
+**Registration Forms**
 
 * **Implementation**
 
-**Bootstrap** has extensive **documentation** about forms so I extracted the code from **the Bootstrap documentation** and build my own **fitting input areas** and **modal buttons**. I fitted the form on **lg and md screen next to the calendar** and **for sm screens I fitted it under the calendar** and added some **padding** between the sections in a **corresponding media query**.
+**Bootstrap** has extensive **documentation** about forms so I extracted the code from **the Bootstrap documentation** and build my own **fitting input areas** and **modal buttons**. I fitted the form on **lg and md screen next to the calendar** and **for sm screens I fitted it under the calendar** and added some **padding** between the sections in a **corresponding media query**. As skills grows, **JavaScript** will be introduced to **ensure** that the form must be **validated before modal appears**. For now the **registration form** doesn't work as it is not using a **PHP**,
 
 **Image Gallery**
 
