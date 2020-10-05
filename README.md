@@ -217,7 +217,8 @@ Embedding a **Google Calendar** is pretty straightforward and customable within 
 **Modal buttons**
 
 * **Implementation**
-I used the **Bootstrap documentation** to implement a **modal on button click** in the **contact form** and the **registration form** and **customized it** with according text and button styling.
+
+* I used the **Bootstrap documentation** to implement a **modal on button click** in the **contact form** and the **registration form** and **customized it** with according text and button styling.
 
 ## Bugs ##
 ---
