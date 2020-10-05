@@ -5,6 +5,7 @@ body {
   font-family: "Cabin", Sans-Serif;
   font-size: 1.1em;
   font-weight:400;
+  overflow: auto;
 }
 
 h1,
@@ -82,7 +83,7 @@ nav .navbar-nav li a {
 .hero-container {
   height: 80vh;
 
-  background: url("../images/Hero-image.jpeg") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/Hero-image.jpeg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -230,7 +231,6 @@ footer p {
   .navbar-brand {
       padding: 5px 0 5px 5px;
   }
-
 
 }
 
