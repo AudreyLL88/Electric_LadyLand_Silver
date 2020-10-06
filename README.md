@@ -170,7 +170,8 @@ You'll notice that my wireframe is different than the website. After my prelimin
 ## Testing ##
 ---
 
-* I tested the responsiveness of the website by using the [**Google Chrome DeveloperTool**](https://developers.google.com/web/tools/chrome-devtools) and the website [**Am I Responsive**](http://ami.responsivedesign.is/).
+* I tested the responsiveness of the website by using the [**Google Chrome DeveloperTool**](https://developers.google.com/web/tools/chrome-devtools) and the website [**Am I Responsive**](http://ami.responsivedesign.is/). 
+* I also tested my website on **different browsers and real devices** : **Iphone 6s, Iphone X, Ipad Pro 12", Macbook air and Samsung Galaxy S20.**
 * I used [**CodePly**](https://www.codeply.com/) to pre-test parts of my HTML and CSS code before adding it to my workspace which was great but sometimes resulted in forgetting to copy/paste some css or classes.
 * I tested my CSS file and my HTML files using [**CSS Validator**](https://jigsaw.w3.org/css-validator/) and [**HTML Validator**](https://validator.w3.org/), which highlighted my mistakes in copy/pasting from CodePly.
 * My CSS file displayed no error but I had to fix a few problems concerning **the google font syntax**, **the id of my navigation bar**, as well as **the call to action buttons syntax**. More about the process below.
@@ -256,7 +257,7 @@ But that's not all, so here we go:
 
 ## Deployment ##
 ---
-Electric LadyLand Silver was developed on **GitPod**, using **GitHub** to host the repository.
+Electric LadyLand Silver was developed on **GitPod**, using **GitHub** to host the repository and deployed on **GitHub Pages**.
 **GitHub** made the deployment extremely painless:
 
 * Connected to Github
