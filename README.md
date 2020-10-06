@@ -107,12 +107,12 @@ I was concerned about the amount of text in the website, so I checked what were 
 * Colored section: #140d07 background #f5f8e4 text
 * Light Section:  #f5f8e4 background  #140d07 text
 * Images and pricing cards shadow: #719f9f
-* Buttons and icons : #719f9f with #ed8b22 hover effect
+* Buttons: #719f9f with #ed8b22 hover effect
 
 * For all other pages:
 * Background: #f5f8e4
 * Text: #140d07
-* Buttons and icons: #719f9f with #ed8b22 hover effects
+* Buttons: #719f9f with #ed8b22 hover effects
 
 ![Color Scheme](assets/images/color-scheme.png)
 
@@ -124,7 +124,7 @@ It also allowed **my mentor** to point out a few **UX mistakes** that I changed 
 View my wireframes [here](assets/wireframe/ElectricLadyLand-wireframe.pdf).
 
 You'll notice that my wireframe is different than the website. After my preliminary meeting with my mentor, I decided under his supervision to let go of the following things for a better UX:
-* The **Header title** became white with a lighter shadow under rather than a semi-transparent jumbotron.
+* The **Header title** became white with a lighter shadow and an opacity layer on the hero image rather than a semi-transparent turquoise jumbotron.
 * The **Book a class button** on the Hero image went down to the **"Gallery"** button in the **About Section**.
 * The **navigation bar** changes depending on which pagethe user is on.
 * The **about** section link in the **navigation bar** was **removed**.
@@ -171,7 +171,7 @@ You'll notice that my wireframe is different than the website. After my prelimin
 ---
 
 * I tested the responsiveness of the website by using the [**Google Chrome DeveloperTool**](https://developers.google.com/web/tools/chrome-devtools) and the website [**Am I Responsive**](http://ami.responsivedesign.is/).
-* I used [**CodePen**](https://www.codeply.com/) to pre-test parts of my HTML and CSS code before adding it to my workspace which was great but sometimes resulted in forgetting to copy/paste some css or classes.
+* I used [**CodePly**](https://www.codeply.com/) to pre-test parts of my HTML and CSS code before adding it to my workspace which was great but sometimes resulted in forgetting to copy/paste some css or classes.
 * I tested my CSS file and my HTML files using [**CSS Validator**](https://jigsaw.w3.org/css-validator/) and [**HTML Validator**](https://validator.w3.org/), which highlighted my mistakes in copy/pasting from CodePly.
 * My CSS file displayed no error but I had to fix a few problems concerning **the google font syntax**, **the id of my navigation bar**, as well as **the call to action buttons syntax**. More about the process below.
 
@@ -249,6 +249,11 @@ But that's not all, so here we go:
 * I had taken my fonts as a family pair and HTML validator didn't like that at all.
 * I went on google fonts and selected the fonts and their weight manually then added that link and it worked.
 
+**Overflow**
+* After deploying my website and submitting it for peer-review on Slack another student picked on my website having a bit of overflow on mobile.
+* I downloaded Unicorn Revealer (Chrome extenstion), grabbed a web designer friend and discovered it was the bootstrap row class in the hero-container of my Title section in index.html.
+* I removed it and it now works beautifully.
+
 ## Deployment ##
 ---
 Electric LadyLand Silver was developed on **GitPod**, using **GitHub** to host the repository.
@@ -288,6 +293,7 @@ Electric LadyLand Silver was developed on **GitPod**, using **GitHub** to host t
 * **Matildha Cedborger** for her passion, her ideas and her talent
 * **Code Institute Slack community** for the technical and emotional support
 * **Ivar Dahlberg**, technical artist at Embark but also my poor husband who heard me vent and cooked me food while I was staring at my screen.
+* **Adrian Griffin**, web designer extraordinaire who was my second pair of eyes when I coudn't see straight.
 * **Mesaicos Stockholm LandHockey team** for cutting me some slack for not being very alert (and I am the goalkeeper...)
 
 **Site for educational purposes only!** (for now)
