@@ -239,7 +239,7 @@ Embedding a **Google Calendar** is pretty straightforward and customable within 
 
 * **Implementation**
 
-**My mentor** suggested after seeing my **wireframe** during our preliminary meeting that I should use the **Fancybox library**. After researching it, I **resized my images with Gimp** to create the thumbnails and used this[**Bootstrap gallery template**](https://startbootstrap.com/snippets/thumbnail-gallery/)for the **responsivness** and added the **Fancybox "data-fancybox"** and **alt text**.**
+**My mentor** suggested after seeing my **wireframe** during our preliminary meeting that I should use the **Fancybox library**. After researching it, I **resized my images with Gimp** to create the thumbnails and used this [**Bootstrap gallery template**](https://startbootstrap.com/snippets/thumbnail-gallery/) for the **responsivness** and added the **Fancybox "data-fancybox"** and **alt text**.**
 
 **Modal buttons**
 

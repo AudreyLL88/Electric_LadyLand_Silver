@@ -208,10 +208,19 @@ footer p {
 /* -- Media queries --*/
 
 @media (max-width: 641px) {
-  .instructor-img,
-  .ethic-img {
+  .ethic-img,
+  .instructor-img {
     display: none;
   }
+  .instructor-mobile {
+      margin-top: 5px;
+      box-shadow: -5px 5px #719f9f;
+     -moz-box-shadow: -5px 5px #719f9f;
+     -webkit-box-shadow: -5px 5px #719f9f;
+     -o-box-shadow: -5px 5px #719f9f;
+     border-radius: 100px;
+  }
+
   .media-body {
     text-align: center;
   }
