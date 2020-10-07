@@ -6,31 +6,35 @@
 ---
 
 * UX
-    * Project Goals
-    * User Goals
-    * User Stories
-    * Site Owner Goals
-    * User Requirements and Expectations
-    * Design Choices
-        * Fonts
-        * Icons
-        * Colours
-* Technologies
-* Features
-    * Features that have been developed
-    * Features that will be implemented in the future
-* Testing
-* Bugs
-* Deployment
-* Credit
+    * [Project Goals](#project-goals)
+    * [User Goals](#user-goals)
+    * [User Stories](#user-stories)
+    * [Site Owner Goals](#site-owner-goals)
+    * [User Requirements and Expectations](#requirements)
+    * [Design Choices](#design-choices)
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colors](#colors)
+* [Wireframing](#wireframing)
+* [Features](#features)
+    * [Features that have been developed](#developed)
+    * [Features that will be implemented in the future](#implemented)
+* [Technologies](#technologies)
+* [Testing](#testing)
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Credit](#credits)
 
 ## UX (User Experience) ##
 ---
-
+<a name="project-goals"></a>
 ### Project Goals ###
+
 The **goal** for this project is to learn about the **services** offered by **Electric LadyLand Silver**, discover the projects done by previous students and book a class or contact the site owner.
 
+<a name="user-goals"></a>
 ### User Goals ###
+
 * **Find information** about **Electric LadyLand** Silver and their **services**.
 * **Check availabilities** for classes through an embedded **Google Calendar**.
 * **Book a class**  with Electric LadyLand Silver through a multiple choice **registration form**.
@@ -38,6 +42,7 @@ The **goal** for this project is to learn about the **services** offered by **El
 * **Contact via email** to the **site owner**.
 * Why smithery is a creative activity that anyone should do.
 
+<a name="user-stories"></a>
 ### User Stories ### 
 
 All **user** stories have to be read aloud as a **Baseline Test** from **Blade Runner**
@@ -53,6 +58,7 @@ All **user** stories have to be read aloud as a **Baseline Test** from **Blade R
 * The **user** wants to know **his/her/their email and registration form were successfully sent**.
 * The **user** wants to be able to **consult the website from all his/her/their devices**.
 
+<a name="site-owner-goals"></a>
 ### Site Owner Goals ###
 
 All **site owner** goals have to be read aloud as a **Baseline Test** from **Blade Runner**
@@ -67,9 +73,12 @@ All **site owner** goals have to be read aloud as a **Baseline Test** from **Bla
 * The **site owner** wants to **answer** to **the registration himself/herself/themselves** to add **a human touch**to the experience.
 * The **site owner** wants his website to be **supported by all browsers and devices**.
 
+
 ### User Requirements and Expectations ###
 
-**Requirements** 
+<a name="requirements"></a>
+
+### Requirements ###
 
 * Navigate the website using the **top navigation bar**.
 * Be provided with **information about the ethics of the company, the instructor and the services** offered.
@@ -86,19 +95,27 @@ All **site owner** goals have to be read aloud as a **Baseline Test** from **Bla
 * **FAQs page** to **avoid too much text** on landing page.
 * **Pop-up to signal** that the **contact and registration form have been sent**
 
+<a name="design-choices"></a>
+
 ### Design Choices ###
 ---
 When crafting this website, I looked at **other jewelry schools** such as [**L'Ecole Van Cleef Arpels**](https://www.lecolevancleefarpels.com/hk/en) and [**The Silversmith Guild of Canterbury**](https://www.silversmithsguild.org.nz/Classes) to consult the **relevant sections** to be in use, then added my **personal touches**. I also applied what I had learnt during the **Udemy FullStack Developer Bootcamp**  as well as **the Whisky drop challenge with Code Institute**. 
 
-**Fonts**
+<a name="fonts"></a>
+
+### Fonts ###
 
 I was concerned about the amount of text in the website, so I checked what were **popular Google Fonts pairing in 2020**, and after a bit of fidgeting I chose to pick [**Arvo**](https://fonts.google.com/specimen/Arvo) for the headings and [**Cabin**](https://fonts.google.com/specimen/Cabin) for other elements.
 
-**Icons**
+<a name="icons"></a>
+
+### Icons ###
 
 **All icons** used on the website are provided by [**FontAwesome**](https://fontawesome.com/) and are there mostly (at the exception of the About section) to highlight **the buttons functonality and the FAQs text**.
 
-**Colors**
+<a name="colors"></a>
+
+### Colors ###
 
 **Electric Ladyland Silver** already had a **very strong visual identity** inspired by **South Western America and Native American culture**. Most of the colors used on the website are from [**The American Southwest Color Palette**](https://www.color-hex.com/color-palette/45255).
 
@@ -116,6 +133,8 @@ I was concerned about the amount of text in the website, so I checked what were 
 
 ![Color Scheme](assets/images/color-scheme.png)
 
+<a name="wireframing"></a>
+
 ## Wireframing ##
 ---
 For **wireframing** I used [**JustInMind**](https://www.justinmind.com/) rather than **Balsamiq** as I wanted to include **pictures and text** to show it to **the company owner**. Making this **wireframe** really helped me understand **the complexity behind the Google calendar and the registration form** and how to make it coherent.
@@ -132,9 +151,12 @@ You'll notice that my wireframe is different than the website. After my prelimin
 * The **Any Question** section became a **Call to Action** section with a **contact button** leading to a **contact page with a form**.
 * The **contact details** are moved in the **footer**.
 
+<a name="features"></a>
 ## Features ## 
 ---
-**Implemented Features**:
+
+<a name="developed"></a>
+### Implemented Features ###
 
 * **Responsiveness** on all screen sizes.
 * **Contact form** with modal button in contact page.
@@ -143,13 +165,15 @@ You'll notice that my wireframe is different than the website. After my prelimin
 * **Pricing cards** with picture.
 * **Images Gallery** with thumbnails and **zoom-in pictures**.
 
-**Future implemented features**:
+<a name="implemented"></a>
+### Future implemented features ###
 
 * Online Shop.
 * Google reviews.
 * More (and better?) pricing cards.
 
-**Technologies used**
+<a name="technologies"></a>
+## Technologies used ##
 
 * [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -166,6 +190,8 @@ You'll notice that my wireframe is different than the website. After my prelimin
 * [Gimp](https://www.gimp.org/)
 * [Git](https://git-scm.com/)
 * [Hover.css](https://ianlunn.github.io/Hover/)
+
+<a name="testing"></a>
 
 ## Testing ##
 ---
@@ -221,6 +247,7 @@ Embedding a **Google Calendar** is pretty straightforward and customable within 
 
 * I used the **Bootstrap documentation** to implement a **modal on button click** in the **contact form** and the **registration form** and **customized it** with according text and button styling.
 
+<a name="bugs"></a>
 ## Bugs ##
 ---
 
@@ -272,7 +299,7 @@ Electric LadyLand Silver was developed on **GitPod**, using **GitHub** to host t
 * In my repository **AudreyLL88/MS1**, click on the **"Code"** green button, **copy in clipboard the HTTPS link**, open your **browser** and look through my files.
 * The link : **https://github.com/AudreyLL88/Electric_LadyLand_Silver.git**
 
-
+<a name="credits"></a>
 ## Credits ##
 ---
 **Text Credits:**
