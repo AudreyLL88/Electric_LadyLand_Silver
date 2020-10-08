@@ -21,7 +21,7 @@
     * [Features that will be implemented in the future](#implemented)
 * [Technologies](#technologies)
 * [Testing](#testing)
-* [Bugs](#bugs)
+* [Issues](#issues)
 * [Deployment](#deployment)
 * [Credit](#credits)
 
@@ -247,8 +247,8 @@ Embedding a **Google Calendar** is pretty straightforward and customable within 
 
 * I used the **Bootstrap documentation** to implement a **modal on button click** in the **contact form** and the **registration form** and **customized it** with according text and button styling.
 
-<a name="bugs"></a>
-## Bugs ##
+<a name="issues"></a>
+## Issues ##
 ---
 
 I still have **nightmares** about **bootstrap cards**. **The horror, oh the horror**. It doesn't show on my commits because I wanted to commit only when I was satisfied with it.
@@ -264,18 +264,6 @@ But that's not all, so here we go:
 * I almost cried of happiness.
 * Then I added a list in the card-body and everything broke down in lenght because it was too much text.
 * So I decided to go for a small paragraph of text and it looked a 100% times better. To me the cards are still a bit long and this is something I will work more on in the future.
-
-**Navigation Bar**
-* Nav section didnt have a heading, got flagged by html validator.
-* Changed section tag for div, and got the same results, so I completely removed the div and let the navbar breath by itself, which seems fine.
-
-**Call to action buttons**
-* Originally started with a "button" then realized that i needed a "a" instead but left the type="submit" in it.
-* HTML validator strongly disagreed so I removed it.
-
-**Google Fonts syntax link**
-* I had taken my fonts as a family pair and HTML validator didn't like that at all.
-* I went on google fonts and selected the fonts and their weight manually then added that link and it worked.
 
 **Overflow**
 * After deploying my website and submitting it for peer-review on Slack another student picked on my website having a bit of overflow on mobile.
