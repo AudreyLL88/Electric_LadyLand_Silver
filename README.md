@@ -1,6 +1,6 @@
 # Electric LadyLand Silver #
 ---
-![Hero Screenshot](assets/images/screenshot.png)
+![Hero Screenshot](assets/images/screenshot_hero.png)
 
 ## Contents ##
 ---
@@ -195,13 +195,13 @@ You'll notice that my wireframe is different than the website. After my prelimin
 
 ## Testing ##
 ---
+![Testing](assets/images/screenshot_responsive.png)
 
 * I tested the responsiveness of the website by using the [**Google Chrome DeveloperTool**](https://developers.google.com/web/tools/chrome-devtools) and the website [**Am I Responsive**](http://ami.responsivedesign.is/). 
 * I also tested my website on **different browsers and real devices** : **Iphone 6s, Iphone X, Ipad Pro 12", Macbook air and Samsung Galaxy S20.**
 * I used [**CodePly**](https://www.codeply.com/) to pre-test parts of my HTML and CSS code before adding it to my workspace which was great but sometimes resulted in forgetting to copy/paste some css or classes.
 * I tested my CSS file and my HTML files using [**CSS Validator**](https://jigsaw.w3.org/css-validator/) and [**HTML Validator**](https://validator.w3.org/), which highlighted my mistakes in copy/pasting from CodePly.
-* My CSS file displayed no error but I had to fix a few problems concerning **the google font syntax**, **the id of my navigation bar**, as well as **the call to action buttons syntax**. More about the process below.
-
+* My CSS file displayed no error but I had to fix a few problems concerning my syntax in my HTML files.
 All pages passed the HTML and CSS validator final test.
 
 **Responsiveness**
@@ -218,12 +218,16 @@ The design of the site was inspired by **South western culture** but kept **mini
 
 **Contact form**
 
+![Contact](assets/images/screenshot_contactform.png)
+
 * **Implementation** 
 
 I used the **contact form** that was introduced to us during [**the mini project challenge**](https://github.com/AudreyLL88/mini-project-cv) because I liked how it sit **in the middle of the page and is very straightforward**. I wanted to add **an "add images" button** but realized that **I needed to know some JS**. I customized it a bit by **adding margins, a checkbox and a modal button**. As skills grows, **JavaScript** will be introduced to **ensure** that the form must be **validated before modal appears**. For now the **contact form** doesn't work as it is not using a **PHP**. 
 All input elements work and **are responsive**.
 
 **Google Calendar**
+
+![Calendar](assets/images/screenshot_booking.png)
 
 * **Implementation**
 
@@ -237,11 +241,15 @@ Embedding a **Google Calendar** is pretty straightforward and customable within 
 
 **Image Gallery**
 
+![Gallery](assets/images/screenshot_gallery.png)
+
 * **Implementation**
 
 **My mentor** suggested after seeing my **wireframe** during our preliminary meeting that I should use the **Fancybox library**. After researching it, I **resized my images with Gimp** to create the thumbnails and used this [**Bootstrap gallery template**](https://startbootstrap.com/snippets/thumbnail-gallery/) for the **responsivness** and added the **Fancybox "data-fancybox"** and **alt text**.**
 
 **Modal buttons**
+
+![Modal](assets/images/screenshot_modal.png)
 
 * **Implementation**
 
